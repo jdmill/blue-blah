@@ -31,8 +31,8 @@ header h1 {
 }
 
 header img {
-  max-width: 4vw;
-  max-height: 4vw;
+  max-width: 3vw;
+  max-height: 3vw;
 }
 
 /* Nav Bar */
@@ -136,10 +136,10 @@ nav a:hover {
   flex-direction: row;
   min-height: 15vw;
   max-height: 15vw;
-  border: 7px solid var(--secondary);
+  border: 5px solid var(--secondary);
   text-decoration: none;
   flex-basis: 47%;
-  background-size: 120%;
+  background-size: 101%;
   background-repeat: no-repeat;
   align-items: center;
   margin: 0.3em;
@@ -187,23 +187,23 @@ nav a:hover {
 
 /*Image links*/
 .connected {
-  background-image: url("../images/pexels-steve-johnson-1044989.jpg");
+  background-image: url("../images/image.jpg");
 }
 
 .ball {
-  background-image: url("../images/pexels-pixabay-414860.jpg");
+  background-image: url("../images/image-3.jpg");
 }
 
 .keyboard {
-  background-image: url("../images/pexels-soumil-kumar-735911.jpg");
+  background-image: url("../images/image-2.jpg");
 }
 
 .rainbow-lights {
-  background-image: url("../images/pexels-daria-shevtsova-1356300.jpg");
+  background-image: url("../images/image-4.jpg");
 }
 
 .placeholder {
-  background-image: url("../images/istockphoto-1085051682-170667a.jpg");
+  background-image: url("../images/image-5.jpg");
 }
 
 /*Responsive Media Query Section */
