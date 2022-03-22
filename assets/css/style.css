@@ -1,0 +1,61 @@
+/*Universal Selector */
+* {
+
+}
+
+/* Header */
+.header {
+    font-size: 4vw;
+    background-color: grey;
+}
+
+/* Nav Bar */
+.navBar {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Hero Image - Banner */
+
+.hero {
+    background-image: url(../images/banner-image.jpg);
+}
+
+/* Webpage Main Section */
+
+.main {
+
+}
+
+
+/* About Me Section */
+
+.about-me {
+
+}
+
+/* Work Section */
+
+.work {
+
+}
+
+/* Work Container - Holds Link Gallery */
+
+.work-container {
+
+}
+
+/* Contact Me Section */
+
+.contact-me {
+
+}
+
+/* Footer Section */
+
+.footer {
+
+}
