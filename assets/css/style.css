@@ -155,8 +155,8 @@ nav a:hover {
 }
 
 .item:hover {
-  background-blend-mode: lighten;
-  background-color: var(--primary, 0.2);
+  background-blend-mode: hard-light;
+  background-color: var(--primary, 0.5);
 }
 
 .connected {
@@ -186,24 +186,29 @@ nav a:hover {
 }
 
 /*Image links*/
-.connected {
-  background-image: url("../images/image.jpg");
+
+.eventPlan {
+  background-image: url("../images/EventPlan-SC.png");
 }
 
-.ball {
-  background-image: url("../images/image-3.jpg");
+.weather-dashboard {
+  background-image: url("../images/weather-dashboard.png");
 }
 
-.keyboard {
-  background-image: url("../images/image-2.jpg");
+.dayplanner {
+  background-image: url("../images/dayplanner.png");
 }
 
-.rainbow-lights {
-  background-image: url("../images/image-4.jpg");
+.quiz {
+  background-image: url("../images/quiz.png");
 }
 
-.placeholder {
-  background-image: url("../images/image-5.jpg");
+.passwordGen {
+  background-image: url("../images/passwordGen.png");
+}
+
+.firstSite {
+  background-image: url("../images/firstWebPage.png");
 }
 
 /*Responsive Media Query Section */
