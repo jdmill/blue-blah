@@ -12,7 +12,12 @@ https://jdmill.github.io/blue-blah/
 5. Made the Site responsive
 6. Created a contact section on the bottom of the page.
 
-This portfolio webpage was created for the second homework assignment for the web development bookcamp. I struggled to get the elements exactly right, but managed to get pretty close. With more time I may have been able to achieve a better result. Although with the lessons I learned from this exercise it might be better to just start from scratch.
+
+Added my homework assignments to the work section of this portfolio page.
+Added images to the image boxes in the work section
+
+
+---Still need to update Mockup image
 
 
 ## Mock Up
