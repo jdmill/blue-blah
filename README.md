@@ -4,6 +4,7 @@
 https://jdmill.github.io/blue-blah/
 
 ## Project Description
+This is my Portfolio Website
 
 1. Added NavBar with github avatar and working links
 2. Added a hero Image
@@ -17,9 +18,7 @@ Added my homework assignments to the work section of this portfolio page.
 Added images to the image boxes in the work section
 
 
----Still need to update Mockup image
-
-
 ## Mock Up
 
-![portfolio-image](./assets/images/Website-image.png)
+
+![updatedPort](https://user-images.githubusercontent.com/9371206/163035604-2e6e2b8d-b91a-4dcd-b24e-78dd0cccbc51.png)
