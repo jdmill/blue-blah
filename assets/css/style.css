@@ -31,8 +31,8 @@ header h1 {
 }
 
 header img {
-  max-width: 3vw;
-  max-height: 3vw;
+  max-width: auto;
+  max-height: 10vh;
 }
 
 /* Nav Bar */
@@ -42,11 +42,13 @@ nav {
   flex-wrap: wrap;
 }
 
+
 nav a {
   color: var(--secondary);
   font-size: 1.5rem;
-  padding: 10px 15px;
+  padding: 10px 10px;
   margin: 0 10px 0 0;
+  gap: 10px
 }
 
 nav a:hover {
@@ -115,12 +117,27 @@ nav a:hover {
   text-align: right;
   padding-right: 10px;
   border-right: 5px solid var(--primary);
-  font-size: 3vw;
+  font-size: 4vh;
 }
 
 /* About Me Section */
 .about-me {
   display: flex;
+}
+
+#about-me div p {
+  font-size: 1.5rem;
+}
+
+.about-me-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-me-div img {
+  padding-right: 10px;
+  width: 15vw;
+  height: 15vw;
 }
 
 /* Work Section Container - Holds Link Gallery */
@@ -134,7 +151,7 @@ nav a:hover {
 .item {
   display: flex;
   flex-direction: row;
-  min-height: 15vw;
+  min-height: 20vw;
   max-height: 15vw;
   border: 5px solid var(--secondary);
   text-decoration: none;
@@ -145,6 +162,10 @@ nav a:hover {
   margin: 0.3em;
   justify-content: flex-start;
 }
+
+.item:first-child {
+  flex-basis: 96%;
+}
 /*Words inside the work section*/
 .item h3 {
   color: var(--primary);
@@ -152,6 +173,7 @@ nav a:hover {
   flex-basis: 15%;
   padding: 5px;
   border: hidden;
+  align-self: flex-end;
 }
 
 .item:hover {
@@ -164,6 +186,7 @@ nav a:hover {
   flex-basis: 100%;
 }
 
+
 /* Contact Me Section */
 #contact-me {
   display: flex;
@@ -174,7 +197,7 @@ nav a:hover {
 
 #contact-me a {
   color: var(--tertiary);
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 10px 15px;
   margin: 0 10px 0 0;
 }
@@ -186,7 +209,13 @@ nav a:hover {
 }
 
 /*Image links*/
+.thisIsWar {
+  background-image: url("../images/thisiswarmockup.png");
+}
 
+.noteTaker {
+  background-image: url("../images/notetake.png");
+}
 .eventPlan {
   background-image: url("../images/EventPlan-SC.png");
 }
@@ -218,7 +247,9 @@ nav a:hover {
     justify-content: center;
     text-align: center;
   }
-
+    .item h3 {
+      font-size: 4vw;;
+    }
   header h1 {
     width: 100%;
     padding: 10px;
@@ -233,10 +264,17 @@ nav a:hover {
   .hero {
     justify-content: center;
     text-align: center;
+    max-height: 10vh;
+  }
+
+  .hero div h2 {
+    visibility: hidden;
   }
 
   .item {
-    min-height: 15vw;
     flex-basis: 100%;
+  }
+
+  .resume-container {
   }
 }
