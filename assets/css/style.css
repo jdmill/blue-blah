@@ -48,7 +48,6 @@ nav a {
   font-size: 1.5rem;
   padding: 10px 10px;
   margin: 0 10px 0 0;
-  gap: 10px
 }
 
 nav a:hover {
@@ -125,13 +124,10 @@ nav a:hover {
   display: flex;
 }
 
-#about-me div p {
-  font-size: 1.5rem;
-}
-
 .about-me-div {
   display: flex;
   flex-direction: row;
+  font-size: 1.3rem;
 }
 
 .about-me-div img {
@@ -190,7 +186,6 @@ nav a:hover {
 /* Contact Me Section */
 #contact-me {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   height: 100%;
 }
@@ -198,8 +193,8 @@ nav a:hover {
 #contact-me a {
   color: var(--tertiary);
   font-size: 1.5rem;
-  padding: 10px 15px;
-  margin: 0 10px 0 0;
+  padding: 5px 15px;
+  margin: 0 5px 0 0;
 }
 
 #contact-me a:hover {
@@ -275,6 +270,21 @@ nav a:hover {
     flex-basis: 100%;
   }
 
-  .resume-container {
+  .about-me-div {
+    flex-direction: column;
   }
+
+  .about-me-div img {
+    align-self: center;
+    padding-right: 0px;
+    margin-bottom: 3vh;
+      width: 40vw;
+      height: 40vw;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .about-me-div img {
+      display: none;
+    }
 }
